@@ -27,7 +27,7 @@ drive.mount('/content/drive')
 ### 2. Update the paths according to your Drive:
 
 train_dir = '/content/drive/MyDrive/IMG/Train'
-test_dir = '/content/drive/MyDrive/IMG/Test'
+   test_dir = '/content/drive/MyDrive/IMG/Test'
 
 ## 🛠️ Libraries Used
 
