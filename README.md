@@ -15,18 +15,6 @@ It includes dataset splitting, preprocessing, model training, and evaluation —
 - **Principal Component Analysis (PCA)** – Reduces dimensionality of image features.
 - **K-Nearest Neighbors (KNN)** – Classifies images based on similarity in reduced space.
 
-## 📁 Dataset Format
-
-IMG/
-├── Train/
-│ ├── Class1/
-│ │ ├── img1.jpg
-│ │ ├── ...
-│ ├── Class2/
-│ │ ├── img1.jpg
-│ │ ├── ...
-
-
 > If only `Train/` exists, you can split it into a `Test/` folder automatically.
 
 ## 🚀 How to Run (Google Colab Setup)
