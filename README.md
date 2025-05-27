@@ -1,21 +1,23 @@
-
-
-# Image Recognition with KNN and PCA
+# 🖼️ Image Recognition with KNN and PCA
 
 This project performs **image classification** using a simple machine learning pipeline:
 
-- Image Preprocessing
-- Dimensionality Reduction with **PCA**
-- Classification with **K-Nearest Neighbors (KNN)**
+- 📷 Image Preprocessing  
+- 📉 Dimensionality Reduction with **PCA**  
+- 🎯 Classification with **K-Nearest Neighbors (KNN)**  
 
-It includes dataset splitting, preprocessing, model training, and evaluation — with specific guidance for running in **Google Colab** using **Google Drive**.
+It also includes dataset splitting, preprocessing, model training, and evaluation — with specific guidance for running in **Google Colab** using **Google Drive**.
+
+---
 
 ## 🧠 Algorithms Used
 
-- **Principal Component Analysis (PCA)** – Reduces dimensionality of image features.
-- **K-Nearest Neighbors (KNN)** – Classifies images based on similarity in reduced space.
+- **Principal Component Analysis (PCA)** – Reduces the dimensionality of image features.
+- **K-Nearest Neighbors (KNN)** – Classifies images based on feature similarity in reduced space.
 
-> If only `Train/` exists, you can split it into a `Test/` folder automatically.
+> If only a `Train/` folder exists, the code allows you to automatically split it into a `Test/` folder.
+
+---
 
 ## 🚀 How to Run (Google Colab Setup)
 
