@@ -1,4 +1,4 @@
-# 🖼️ Image Recognition with KNN and PCA
+# Image Recognition with KNN and PCA
 
 This project performs **image classification** using a simple machine learning pipeline:
 
