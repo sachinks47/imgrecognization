@@ -6,30 +6,10 @@ This project performs **image classification** using a simple machine learning p
 - 📉 Dimensionality Reduction with **PCA**  
 - 🎯 Classification with **K-Nearest Neighbors (KNN)**  
 
-It also includes dataset splitting, preprocessing, model training, and evaluation — with specific guidance for running in **Google Colab** using **Google Drive**.
-
----
-
 ## 🧠 Algorithms Used
 
 - **Principal Component Analysis (PCA)** – Reduces the dimensionality of image features.
 - **K-Nearest Neighbors (KNN)** – Classifies images based on feature similarity in reduced space.
-
-> If only a `Train/` folder exists, the code allows you to automatically split it into a `Test/` folder.
-
----
-
-## 🚀 How to Run (Google Colab Setup)
-
-### 1. Mount Google Drive
-
-from google.colab import drive
-drive.mount('/content/drive')
-
-### 2. Update the paths according to your Drive:
-
-train_dir = '/content/drive/MyDrive/IMG/Train'
-   , test_dir = '/content/drive/MyDrive/IMG/Test'
 
 ## 🛠️ Libraries Used
 
@@ -39,10 +19,5 @@ sklearn: ML models, PCA, scaling, evaluation
 matplotlib, seaborn: (Optional) Visualization
 os, shutil: File management
 
-## 📌 Notes
-
-Ensure consistent folder structure between Train/Test datasets.
-You can change image resolution (size=(64, 64)) or PCA components (n_components=50) to suit your use case.
-Accuracy will vary depending on image quality and data balance.
 
 
